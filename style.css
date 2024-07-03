@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    @font-face {
+        font-family: 'volvo';
+        src: url("font/fonnts.com-Volvo_Novum_Light.ttf") format(ttf),
+        url("font/fonnts.com-Volvo_Novum_Medium.ttf")format(ttf);
+
+
+        font-family: "Volvo Broad Pro Digital";
+        src: url("https://db.onlinewebfonts.com/t/15c5f5b189674016e0de413ca5b9da52.eot");
+        src: url("https://db.onlinewebfonts.com/t/15c5f5b189674016e0de413ca5b9da52.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/15c5f5b189674016e0de413ca5b9da52.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/15c5f5b189674016e0de413ca5b9da52.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/15c5f5b189674016e0de413ca5b9da52.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/15c5f5b189674016e0de413ca5b9da52.svg#Volvo Broad Pro Digital")format("svg");
+
+
+    }
+
+.conatiner{
+    width: 100%;
+    position: relative;
+}
+.welcome-page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.welcome-img{
+    width: 1263px;
+    height: 720px;
+    object-fit: cover;
+}
+.text{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    top: 0;
+    padding: 28px 30px 121px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.text p{
+    color: white;
+}
+.volvo-logo{
+    height: 20px;
+}
+.volvo-tagline{
+margin-top: 340px; 
+margin-left: 540px;
+}
+.tagline-1,.tagline-2{
+    font-family: 'Volvo Broad Pro Digital';
+    font-size: 80px;
+}
+.menu-button{
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.sheild{
+    width: 30px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(5, 5, 104);
+    bottom: 10px;
+    left: 15px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+.services{
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.titles{
+    font-family: sans-serif;
+}
+.title-1{
+ font-size: 12px;
+}
+.title-2{
+    margin-top: 18px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.service-types{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    overflow-x: scroll;
+}
+.service-types::-webkit-scrollbar{
+    background-color: rgb(182, 182, 182);
+    height: 2.5px;
+}
+.service-types::-webkit-scrollbar-thumb{
+   background: blue;
+}
+.type-img{
+    width: 355px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.type-{
+    position: relative;
+}
+.type-name{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.type-quote{
+    color: white;
+    font-family:'Volvo Broad Pro Digital';
+    font-size: 50px;
+    line-height: 58px;
+}
+.type-texts{
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+}
+.scrollbar-buttons{
+    display: flex;
+    gap: 0px;
+    margin-top: -25px;
+    margin-left: 30px;
+}
+.btn1{
+    background: white;
+    border: none;
+}
+.btn2{
+    padding-left: 25px;
+    padding-right: 50px;
+    border: none;
+    background: white;
+    
+}
+.video-background{
+    background-color: black;
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.video{
+  width: 100%;
+  height: 675px;
+}
+.career,.lifestyle{
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.career-links{
+    width: 47%;
+    margin-right: 3%;
+}
+.lifestyle-links{
+    width: 47%;
+    margin-left: 3%;
+}
+.lifestyle-img img{
+    height: 330px;
+    width: 585px;
+}
+.career-img img{
+    width: 585px;
+    height: 390px;
+}
+.career-text-1{
+ font-size: 12px;
+ margin-bottom: 20px;
+ color: #141414;;
+}
+.career-text-2{
+    font-size: 31px;
+    font-weight: bold;
+}
+.join-buttons{
+    display: flex;
+    gap: 20px;
+}
+.join-btn{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #1251b5;
+    border: none;
+    padding: 12px 32px;
+}
+.open-in-logo{
+    margin-left: 12px;
+}
+.volvo-banner{
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.volvo-banner img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    color: white;
+    font-family: sans-serif;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.footer-infos{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 70px;
+    display: flex;
+    gap: 20px;
+}
+.footer-info{
+    width:25%;
+}
+.footer-title{
+    font-size: 12px;
+    color: #e1dfdd;
+    margin-bottom: 15px;
+}
+.footer-element{
+    font-size: 24px;
+    line-height: 38px;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+.copyright-text{
+    font-size: 12px;
+    color:  #6d6d6e;
+}
+.copyright-2{
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.dot{
+margin-inline: 10px;
+margin-top: -2px;
+}
